@@ -12,8 +12,11 @@
 // print_r([1, 2, 3]);
 
 // var_dump - Even more info like data type and length
-var_dump('Hello');
+// var_dump('Hello');
 // var_dump([1, 2, 3]);
+
+//var_export() - Similar to var_dump(), Outputs a string representation of a variable.
+var_export('Hello');
 
 // // Escaping characters with a backslash
 // echo "Is your name O\'reilly?";
