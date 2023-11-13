@@ -46,15 +46,15 @@ $cash_on_hand = 10.5; //Float
 
 // // Arithmetic Operators
 
-echo 5 + 5;
-echo 10 - 6;
-echo 5 * 10;
-echo 10 / 2;
-echo 10 % 3;
+// echo 5 + 5;
+// echo 10 - 6;
+// echo 5 * 10;
+// echo 10 / 2;
+// echo 10 % 3;
 
 
 // // Constants - Cannot be changed
-// define('HOST', 'localhost');
-// define('USER', 'root');
+define('HOST', 'localhost');
+define('USER', 'root');
 
-// var_dump(HOST);
+var_dump(HOST, USER);
