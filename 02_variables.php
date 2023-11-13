@@ -30,12 +30,12 @@ $cash_on_hand = 10.5; //Float
 
 // var_dump($cashOnHand);
 
-var_dump($cash_on_hand);
+// var_dump($cash_on_hand);
 
 // /* --- Adding variables to strings -- */
 
 // // Double quotes can be used to add variables to strings
-// echo "$name is $age years old";
+echo $name . ' is ' . $age . ' years old ';
 
 // // Better to do this
 // echo "${name} is ${age} years old";
