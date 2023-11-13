@@ -38,11 +38,11 @@ $cash_on_hand = 10.5; //Float
 // echo $name . ' is ' . $age . ' years old ';
 
 // // Better to do this
-echo "${name} is ${age} years old";
+// echo "${name} is ${age} years old";
 
 // // Concatenate Strings
 
-// echo '<h3>' . $name . ' is ' . $age . ' years old</h3>';
+echo '<h3>' . $name . ' is ' . $age . ' years old</h3>';
 
 // // Arithmetic Operators
 
