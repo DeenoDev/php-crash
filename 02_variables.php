@@ -42,14 +42,16 @@ $cash_on_hand = 10.5; //Float
 
 // // Concatenate Strings
 
-echo '<h3>' . $name . ' is ' . $age . ' years old</h3>';
+// echo '<h3>' . $name . ' is ' . $age . ' years old</h3>';
 
 // // Arithmetic Operators
 
-// echo 5 + 5;
-// echo 10 - 6;
-// echo 5 * 10;
-// echo 10 / 2;
+echo 5 + 5;
+echo 10 - 6;
+echo 5 * 10;
+echo 10 / 2;
+echo 10 % 3;
+
 
 // // Constants - Cannot be changed
 // define('HOST', 'localhost');
