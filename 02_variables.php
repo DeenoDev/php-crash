@@ -25,12 +25,12 @@
 
 $name = 'Deyano'; // String // Can be single or double quotes
 $age = 27; // Integer
-// $hasKids = true; // Boolean
+$has_kids = true; // Boolean
 // $cashOnHand = 10.5; //Float
 
 // var_dump($cashOnHand);
 
-echo $age;
+echo $has_kids;
 
 // /* --- Adding variables to strings -- */
 
