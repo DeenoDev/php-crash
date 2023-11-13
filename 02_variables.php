@@ -54,7 +54,7 @@ $cash_on_hand = 10.5; //Float
 
 
 // // Constants - Cannot be changed
-define('HOST', 'localhost');
-define('USER', 'root');
+// define('HOST', 'localhost');
+// define('USER', 'root');
 
-var_dump(HOST, USER);
+// var_dump(HOST, USER);
