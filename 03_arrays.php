@@ -13,4 +13,12 @@ $colors = [
   6 => 'green'
 ];
 
-echo $colors[4];
+// echo $colors[4];
+
+$hex = [
+    'red' => '#f00',
+    'blue' => '#0f0',
+    'green' => '#00f'
+];
+
+echo $hex['blue'];
