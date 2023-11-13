@@ -51,3 +51,4 @@ $people = [
 ];
 
 echo $people[2]['email'];
+var_dump(json_encode($people));
