@@ -29,4 +29,25 @@ $person = [
     'email' => 'deyano@gmail.com'
 ];
 
-echo $person['last_name'];
+// echo $person['last_name'];
+
+$people = [
+    $person = [
+        'first_name' => 'Deyano',
+        'last_name' => 'Klaasen',
+        'email' => 'deyano@gmail.com'
+    ],
+    $person = [
+        'first_name' => 'Rachelle',
+        'last_name' => 'Klaasen',
+        'email' => 'rachelle@gmail.com'
+    ],
+    $person = [
+        'first_name' => 'Neville',
+        'last_name' => 'Klaasen',
+        'email' => 'neville@gmail.com'
+    ]
+    
+];
+
+echo $people[2]['email'];
