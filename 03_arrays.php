@@ -21,4 +21,12 @@ $hex = [
     'green' => '#00f'
 ];
 
-echo $hex['blue'];
+// echo $hex['blue'];
+
+$person = [
+    'first_name' => 'Deyano',
+    'last_name' => 'Klaasen',
+    'email' => 'deyano@gmail.com'
+];
+
+echo $person['last_name'];
