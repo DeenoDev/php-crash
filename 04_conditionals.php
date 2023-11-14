@@ -24,26 +24,26 @@ if (condition) {
 }
 */
 
-$age = 20;
+// $age = 20;
 
-if ($age >= 18) {
-  echo 'You are old enough to vote!';
-} else {
-  echo 'Sorry, you are too young to vote.';
-}
+// if ($age >= 18) {
+//   echo 'You are old enough to vote!';
+// } else {
+//   echo 'Sorry, you are too young to vote.';
+// }
 
 // Dates
 // $today = date("F j, Y, g:i a");
 
-// $t = date('H');
+$t = date('H');
 
-// if ($t < 12) {
-//   echo 'Have a good morning!';
-// } elseif ($t < 17) {
-//   echo 'Have a good afternoon!';
-// } else {
-//   echo 'Have a good evening!';
-// }
+if ($t < 12) {
+  echo 'Have a good morning!';
+} elseif ($t < 17) {
+  echo 'Have a good afternoon!';
+} else {
+  echo 'Have a good evening!';
+}
 
 // // Check if an array is empty
 // // The isset() function will generate a warning or e-notice when the variable does not exists. The empty() function will not generate any warning or e-notice when the variable does not exists.
