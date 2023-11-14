@@ -48,13 +48,13 @@ if (condition) {
 // // Check if an array is empty
 // // The isset() function will generate a warning or e-notice when the variable does not exists. The empty() function will not generate any warning or e-notice when the variable does not exists.
 
-$posts = [];
+$posts = ['First Post'];
 
-if (!empty($posts[0])) {
-  echo $posts[0];
-} else {
-  echo 'There are no posts';
-}
+// if (!empty($posts[0])) {
+//   echo $posts[0];
+// } else {
+//   echo 'There are no posts';
+// }
 
 // /* -------- Ternary Operator -------- */
 // /*
@@ -74,7 +74,7 @@ if (!empty($posts[0])) {
 // // Null Coalescing Operator ?? (PHP 7.4)
 // // Will return null if $posts is empty
 // // Always returns first parameter, unless first parameter happens to be NULL
-// $firstPost = $posts[0] ?? null;
+$firstPost = $posts[0] ?? null;
 
 // var_dump($firstPost);
 
