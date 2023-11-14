@@ -80,7 +80,7 @@ $posts = ['First Post'];
 
 // /* -------- Switch Statements ------- */
 
-$favcolor = 'red';
+$favcolor = 'blue';
 
 switch ($favcolor) {
   case 'red':
