@@ -74,24 +74,24 @@ $posts = ['First Post'];
 // // Null Coalescing Operator ?? (PHP 7.4)
 // // Will return null if $posts is empty
 // // Always returns first parameter, unless first parameter happens to be NULL
-$firstPost = $posts[0] ?? null;
+// $firstPost = $posts[0] ?? null;
 
 // var_dump($firstPost);
 
 // /* -------- Switch Statements ------- */
 
-// $favcolor = 'red';
+$favcolor = 'red';
 
-// switch ($favcolor) {
-//   case 'red':
-//     echo 'Your favorite color is red!';
-//     break;
-//   case 'blue':
-//     echo 'Your favorite color is blue!';
-//     break;
-//   case 'green':
-//     echo 'Your favorite color is green!';
-//     break;
-//   default:
-//     echo 'Your favorite color is not red, blue, nor green!';
-// }
+switch ($favcolor) {
+  case 'red':
+    echo 'Your favorite color is red!';
+    break;
+  case 'blue':
+    echo 'Your favorite color is blue!';
+    break;
+  case 'green':
+    echo 'Your favorite color is green!';
+    break;
+  default:
+    echo 'Your favorite color is not red, blue, nor green!';
+}
