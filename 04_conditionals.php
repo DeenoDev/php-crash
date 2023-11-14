@@ -35,26 +35,26 @@ if (condition) {
 // Dates
 // $today = date("F j, Y, g:i a");
 
-$t = date('H');
+// $t = date('H');
 
-if ($t < 12) {
-  echo 'Have a good morning!';
-} elseif ($t < 17) {
-  echo 'Have a good afternoon!';
-} else {
-  echo 'Have a good evening!';
-}
+// if ($t < 12) {
+//   echo 'Have a good morning!';
+// } elseif ($t < 17) {
+//   echo 'Have a good afternoon!';
+// } else {
+//   echo 'Have a good evening!';
+// }
 
 // // Check if an array is empty
 // // The isset() function will generate a warning or e-notice when the variable does not exists. The empty() function will not generate any warning or e-notice when the variable does not exists.
 
-// $posts = [];
+$posts = [];
 
-// if (!empty($posts[0])) {
-//   echo $posts[0];
-// } else {
-//   echo 'There are no posts';
-// }
+if (!empty($posts[0])) {
+  echo $posts[0];
+} else {
+  echo 'There are no posts';
+}
 
 // /* -------- Ternary Operator -------- */
 // /*
