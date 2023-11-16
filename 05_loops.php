@@ -11,9 +11,9 @@
   }
 */
 
-for ($x = 0; $x <= 10; $x++) {
-  echo "Number: $x <br>";
-}
+// for ($x = 0; $x <= 10; $x++) {
+//   echo "Number: $x <br>";
+// }
 
 // /* ------------ While Loop ------------ */
 
@@ -24,12 +24,12 @@ for ($x = 0; $x <= 10; $x++) {
 //   }
 // */
 
-// $x = 1;
+$x = 1;
 
-// while ($x <= 5) {
-//   echo "Number: $x <br>";
-//   $x++;
-// }
+while ($x <= 15) {
+  echo "Number: $x <br>";
+  $x++;
+}
 
 // /* ---------- Do While Loop --------- */
 
