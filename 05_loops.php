@@ -42,10 +42,10 @@ $x = 1;
 // do...while loop will always execute the block of code once, even if the condition is false.
 // */
 
-do {
-  echo "Number: $x <br>";
-  $x++;
-} while ($x <= 5);
+// do {
+//   echo "Number: $x <br>";
+//   $x++;
+// } while ($x <= 5);
 
 // /* ---------- Foreach Loop ---------- */
 
@@ -66,11 +66,11 @@ do {
 
 // // Use the indexes within the loop
 
-// $posts = ['Post One', 'Post Two', 'Post Three'];
+$posts = ['Post One', 'Post Two', 'Post Three'];
 
-// foreach ($posts as $index => $post) {
-//   echo "${index} - ${post} <br>";
-// }
+foreach ($posts as $index => $post) {
+  echo "${index} - ${post} <br>";
+}
 
 // // Use the keys within the loop for an associative array
 
