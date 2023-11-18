@@ -28,21 +28,21 @@
 // registerUser2('Brad');
 
 // // Returning values
-function add($num1, $num2)
-{
-  return $num1 + $num2;
-}
-
-$sum = add(5, 5);
-echo $sum;
-
-// // Adding default values
-// function subtract($num1 = 10, $num2 = 5)
+// function add($num1, $num2)
 // {
-//   return $num1 - $num2;
+//   return $num1 + $num2;
 // }
 
-// echo subtract();
+// $sum = add(5, 5);
+// echo $sum;
+
+// // Adding default values
+function subtract($num1 = 10, $num2 = 5)
+{
+  return $num1 - $num2;
+}
+
+echo subtract();
 
 // // Assigning anonymous functions to variables. Often used for closures and callback functions
 // $add = function ($num1, $num2) {
