@@ -10,13 +10,13 @@
   - Functions have their own local scope as opposed to global scope
 */
 
-function registerUser()
+function registerUser($email)
 {
-  echo 'User has been registered!';
+  echo "$email registered";
 }
 
 // // Running a function
-registerUser();
+registerUser('Deyano');
 
 // // Adding params
 // function registerUser2($username)
