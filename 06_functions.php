@@ -15,43 +15,43 @@ function registerUser()
   echo 'User has been registered!';
 }
 
-// Running a function
+// // Running a function
 registerUser();
 
-// Adding params
-function registerUser2($username)
-{
-  echo "User ${username} has been registered!";
-}
+// // Adding params
+// function registerUser2($username)
+// {
+//   echo "User ${username} has been registered!";
+// }
 
-// Pass in an argument
-registerUser2('Brad');
+// // Pass in an argument
+// registerUser2('Brad');
 
-// Returning values
-function add($num1, $num2)
-{
-  return $num1 + $num2;
-}
+// // Returning values
+// function add($num1, $num2)
+// {
+//   return $num1 + $num2;
+// }
 
-$sum = add(5, 5);
-echo $sum;
+// $sum = add(5, 5);
+// echo $sum;
 
-// Adding default values
-function subtract($num1 = 10, $num2 = 5)
-{
-  return $num1 - $num2;
-}
+// // Adding default values
+// function subtract($num1 = 10, $num2 = 5)
+// {
+//   return $num1 - $num2;
+// }
 
-echo subtract();
+// echo subtract();
 
-// Assigning anonymous functions to variables. Often used for closures and callback functions
-$add = function ($num1, $num2) {
-  return $num1 + $num2;
-};
+// // Assigning anonymous functions to variables. Often used for closures and callback functions
+// $add = function ($num1, $num2) {
+//   return $num1 + $num2;
+// };
 
-echo $add(5, 5);
+// echo $add(5, 5);
 
-// Arrow functions
-$multiply = fn($num1, $num2) => $num1 * $num2;
+// // Arrow functions
+// $multiply = fn($num1, $num2) => $num1 * $num2;
 
-echo $multiply(5, 5);
+// echo $multiply(5, 5);
