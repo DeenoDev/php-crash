@@ -10,13 +10,13 @@
   - Functions have their own local scope as opposed to global scope
 */
 
-function registerUser($email)
-{
-  echo "$email registered";
-}
+// function registerUser($email)
+// {
+//   echo "$email registered";
+// }
 
 // // Running a function
-registerUser('Deyano');
+// registerUser('Deyano');
 
 // // Adding params
 // function registerUser2($username)
@@ -28,13 +28,13 @@ registerUser('Deyano');
 // registerUser2('Brad');
 
 // // Returning values
-// function add($num1, $num2)
-// {
-//   return $num1 + $num2;
-// }
+function add($num1, $num2)
+{
+  return $num1 + $num2;
+}
 
-// $sum = add(5, 5);
-// echo $sum;
+$sum = add(5, 5);
+echo $sum;
 
 // // Adding default values
 // function subtract($num1 = 10, $num2 = 5)
