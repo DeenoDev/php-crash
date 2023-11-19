@@ -12,13 +12,16 @@ $fruits = ['apple', 'banana', 'orange'];
 // echo count($fruits);
 
 // // Search array
-var_dump(in_array('apple', $fruits));
+// var_dump(in_array('apple', $fruits));
 // echo in_array('banana', $fruits);
 
 // // Add to an array
-// $fruits[] = 'grape';
-// array_push($fruits, 'mango', 'raspberry');
-// array_unshift($fruits, 'kiwi'); // Adds to the beginning
+$fruits[] = 'grape';
+
+array_push($fruits, 'mango', 'raspberry');
+array_unshift($fruits, 'kiwi'); // Adds to the beginning
+
+print_r($fruits);
 
 // // Remove from array
 // array_pop($fruits); // Removes last
