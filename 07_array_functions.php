@@ -6,10 +6,10 @@
   https://www.php.net/manual/en/ref.array.php
 */
 
-// $fruits = ['apple', 'banana', 'orange'];
+$fruits = ['apple', 'banana', 'orange'];
 
 // // Get array length
-// echo count($fruits);
+echo count($fruits);
 
 // // Search array
 // echo in_array('banana', $fruits);
