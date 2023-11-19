@@ -21,13 +21,13 @@ $fruits[] = 'grape';
 array_push($fruits, 'mango', 'raspberry');
 array_unshift($fruits, 'kiwi'); // Adds to the beginning
 
-print_r($fruits);
 
 // // Remove from array
-// array_pop($fruits); // Removes last
-// array_shift($fruits); // Removes first
+array_pop($fruits); // Removes last
+array_shift($fruits); // Removes first
 // // Remove specific element
-// unset($fruits[2]);
+unset($fruits[2]);
+print_r($fruits);
 
 // // Split into chunks of 2
 // $chunkedArray = array_chunk($fruits, 2);
