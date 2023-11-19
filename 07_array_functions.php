@@ -29,17 +29,20 @@ array_shift($fruits); // Removes first
 // unset($fruits[2]);
 
 // // Split into chunks of 2
-$chunkedArray = array_chunk($fruits, 2);
-print_r($chunkedArray);
+// $chunkedArray = array_chunk($fruits, 2);
+// print_r($chunkedArray);
 // print_r($fruits);
 
 // // Concatenate arrays
-// $arr1 = [1, 2, 3];
-// $arr2 = [4, 5, 6];
-// $arr3 = array_merge($arr1, $arr2);
+$arr1 = [1, 2, 3];
+$arr2 = [4, 5, 6];
+
+$arr3 = array_merge($arr1, $arr2);
 // var_dump($arr3);
 // $arr4 = [...$arr1, ...$arr2]; // Use Spread
 // var_dump($arr4);
+
+print_r($arr3);
 
 // // Combine arrays (Keys & values)
 // $a = ['green', 'red', 'yellow'];
