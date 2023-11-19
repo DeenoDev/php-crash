@@ -26,12 +26,12 @@ array_unshift($fruits, 'kiwi'); // Adds to the beginning
 array_pop($fruits); // Removes last
 array_shift($fruits); // Removes first
 // // Remove specific element
-unset($fruits[2]);
-print_r($fruits);
+// unset($fruits[2]);
 
 // // Split into chunks of 2
-// $chunkedArray = array_chunk($fruits, 2);
-// var_dump($chunkedArray);
+$chunkedArray = array_chunk($fruits, 2);
+print_r($chunkedArray);
+// print_r($fruits);
 
 // // Concatenate arrays
 // $arr1 = [1, 2, 3];
