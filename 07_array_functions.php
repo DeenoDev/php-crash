@@ -9,9 +9,10 @@
 $fruits = ['apple', 'banana', 'orange'];
 
 // // Get array length
-echo count($fruits);
+// echo count($fruits);
 
 // // Search array
+var_dump(in_array('apple', $fruits));
 // echo in_array('banana', $fruits);
 
 // // Add to an array
