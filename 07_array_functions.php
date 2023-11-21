@@ -53,11 +53,12 @@ $c = array_combine($a, $b);
 
 // // Array of keys
 $keys = array_keys($c);
-print_r($keys);
+// print_r($keys);
 
 // // Flip keys with values
-// $flipped = array_flip($c);
+$flipped = array_flip($c);
 // var_dump($flipped);
+print_r($flipped);
 
 // // Create array of numbers with range()
 // $numbers = range(1, 20);
