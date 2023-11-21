@@ -49,10 +49,11 @@ $a = ['green', 'red', 'yellow'];
 $b = ['avocado', 'apple', 'banana'];
 $c = array_combine($a, $b);
 
-print_r($c);
+// print_r($c);
 
 // // Array of keys
-// $keys = array_keys($c);
+$keys = array_keys($c);
+print_r($keys);
 
 // // Flip keys with values
 // $flipped = array_flip($c);
