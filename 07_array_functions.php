@@ -58,10 +58,11 @@ $keys = array_keys($c);
 // // Flip keys with values
 $flipped = array_flip($c);
 // var_dump($flipped);
-print_r($flipped);
+// print_r($flipped);
 
 // // Create array of numbers with range()
-// $numbers = range(1, 20);
+$numbers = range(1, 20);
+print_r($numbers);
 
 // // Map through array and create a new one
 // $newNumbers = array_map(function ($number) {
