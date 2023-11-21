@@ -69,10 +69,12 @@ $newNumbers = array_map(function ($number) {
   return "Number ${number}";
 }, $numbers);
 
-print_r($newNumbers);
+// print_r($newNumbers);
 
 // // Filter array
-// $lessThan10 = array_filter($numbers, fn($number) => $number < 10);
+$lessThan10 = array_filter($numbers, fn($number) => $number <= 10);
+
+print_r($lessThan10);
 
 // // Array Reduce
 // // "carry" holds the return value of the previous iteration
