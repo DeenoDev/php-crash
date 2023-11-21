@@ -45,29 +45,31 @@ array_shift($fruits); // Removes first
 // print_r($arr4);
 
 // // Combine arrays (Keys & values)
-$a = ['green', 'red', 'yellow'];
-$b = ['avocado', 'apple', 'banana'];
-$c = array_combine($a, $b);
+// $a = ['green', 'red', 'yellow'];
+// $b = ['avocado', 'apple', 'banana'];
+// $c = array_combine($a, $b);
 
 // print_r($c);
 
 // // Array of keys
-$keys = array_keys($c);
+// $keys = array_keys($c);
 // print_r($keys);
 
 // // Flip keys with values
-$flipped = array_flip($c);
+// $flipped = array_flip($c);
 // var_dump($flipped);
 // print_r($flipped);
 
 // // Create array of numbers with range()
 $numbers = range(1, 20);
-print_r($numbers);
+// print_r($numbers);
 
 // // Map through array and create a new one
-// $newNumbers = array_map(function ($number) {
-//   return "Number ${number}";
-// }, $numbers);
+$newNumbers = array_map(function ($number) {
+  return "Number ${number}";
+}, $numbers);
+
+print_r($newNumbers);
 
 // // Filter array
 // $lessThan10 = array_filter($numbers, fn($number) => $number < 10);
