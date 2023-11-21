@@ -34,20 +34,22 @@ array_shift($fruits); // Removes first
 // print_r($fruits);
 
 // // Concatenate arrays
-$arr1 = [1, 2, 3];
-$arr2 = [4, 5, 6];
+// $arr1 = [1, 2, 3];
+// $arr2 = [4, 5, 6];
 
-// $arr3 = array_merge($arr1, $arr2);
-// var_dump($arr3);
-$arr4 = [...$arr1, ...$arr2]; // Use Spread
-// var_dump($arr4);
+// // $arr3 = array_merge($arr1, $arr2);
+// // var_dump($arr3);
+// $arr4 = [...$arr1, ...$arr2]; // Use Spread
+// // var_dump($arr4);
 
-print_r($arr4);
+// print_r($arr4);
 
 // // Combine arrays (Keys & values)
-// $a = ['green', 'red', 'yellow'];
-// $b = ['avocado', 'apple', 'banana'];
-// $c = array_combine($a, $b);
+$a = ['green', 'red', 'yellow'];
+$b = ['avocado', 'apple', 'banana'];
+$c = array_combine($a, $b);
+
+print_r($c);
 
 // // Array of keys
 // $keys = array_keys($c);
