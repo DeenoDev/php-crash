@@ -6,10 +6,10 @@
   https://www.php.net/manual/en/ref.strings.php
 */
 
-// $string = 'Hello World';
+$string = 'Hello World';
 
 // // Get the length of a string
-// echo strlen($string);
+echo strlen($string);
 
 // // Find the position of the first occurrence of a substring in a string
 // echo strpos($string, 'o');
