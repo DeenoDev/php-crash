@@ -37,14 +37,14 @@ $string = 'Hello World';
 // echo substr($string, 5);
 
 // // Starts with
-if (str_starts_with($string, 'Hello')) {
-  echo 'YES';
-}
-
-// // Ends with
-// if (str_ends_with($string, 'ld')) {
+// if (str_starts_with($string, 'Hello')) {
 //   echo 'YES';
 // }
+
+// // Ends with
+if (str_ends_with($string, 'ld')) {
+  echo 'YES';
+}
 
 // // HTML Entities
 // $string2 = '<h1>Hello World</h1>';
