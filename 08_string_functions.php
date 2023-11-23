@@ -15,10 +15,10 @@ $string = 'Hello World';
 // echo strpos($string, 'o');
 
 // // Find the position of the last occurrence of a substring in a string
-echo strrpos($string, 'o');
+// echo strrpos($string, 'o');
 
 // // Reverse a string
-// echo strrev($string);
+echo strrev($string);
 
 // // Convert all characters to lowercase
 // echo strtolower($string);
