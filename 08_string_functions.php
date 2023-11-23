@@ -24,10 +24,10 @@ $string = 'Hello World';
 // echo strtolower($string);
 
 // // Convert all characters to uppercase
-echo strtoupper($string);
+// echo strtoupper($string);
 
 // // Uppercase the first character of each word
-// echo ucwords($string);
+echo ucwords($string);
 
 // // String replace
 // echo str_replace('World', 'Everyone', $string);
