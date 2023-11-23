@@ -42,9 +42,9 @@ $string = 'Hello World';
 // }
 
 // // Ends with
-if (str_ends_with($string, 'ld')) {
-  echo 'YES';
-}
+// if (str_ends_with($string, 'ld')) {
+//   echo 'YES';
+// }
 
 // // HTML Entities
 // $string2 = '<h1>Hello World</h1>';
@@ -52,5 +52,5 @@ if (str_ends_with($string, 'ld')) {
 
 // // Formatted Strings - useful when you have outside data
 // // Different specifiers for different data types
-// printf('%s is a %s', 'Brad', 'nice guy');
-// printf('1 + 1 = %f', 1 + 1); // float
+printf('%s is a %s', 'Brad', 'nice guy');
+printf('1 + 1 = %f', 1 + 1); // float
