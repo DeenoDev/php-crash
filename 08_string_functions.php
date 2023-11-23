@@ -52,5 +52,5 @@ $string = 'Hello World';
 
 // // Formatted Strings - useful when you have outside data
 // // Different specifiers for different data types
-printf('%s is a %s', 'Brad', 'nice guy');
-printf('1 + 1 = %f', 1 + 1); // float
+// printf('%s is a %s', 'Deyano', 'nice guy');
+printf('1 + 1 = %f', 1+1+1); // float
