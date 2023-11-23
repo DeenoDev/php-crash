@@ -21,10 +21,10 @@ $string = 'Hello World';
 // echo strrev($string);
 
 // // Convert all characters to lowercase
-echo strtolower($string);
+// echo strtolower($string);
 
 // // Convert all characters to uppercase
-// echo strtoupper($string);
+echo strtoupper($string);
 
 // // Uppercase the first character of each word
 // echo ucwords($string);
