@@ -27,10 +27,10 @@ $string = 'Hello World';
 // echo strtoupper($string);
 
 // // Uppercase the first character of each word
-echo ucwords($string);
+// echo ucwords($string);
 
 // // String replace
-// echo str_replace('World', 'Everyone', $string);
+echo str_replace('World', 'Everyone', $string);
 
 // // Return portion of a string specified by the offset and length
 // echo substr($string, 0, 5);
