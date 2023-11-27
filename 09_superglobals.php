@@ -13,12 +13,12 @@
   $_FILES -  Contains information about files uploaded to the script.
   $_REQUEST - Contains information about variables passed through the form or URL.
 */
-
+var_dump($_SERVER);
 // var_dump($GLOBALS);
 // var_dump($_GET);
 // var_dump($_REQUEST);
 ?>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -41,4 +41,4 @@
     <li>Remote Port: <?php echo $_SERVER['REMOTE_PORT']; ?></li>
   </ul>
 </body>
-</html>
+</html> -->
