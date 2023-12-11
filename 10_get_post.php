@@ -20,13 +20,13 @@ echo $_GET['age'];
 <!-- Pass data through a form -->
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 <div>
-  <label>Name: </label>
+  <label for="name">Name: </label>
   <input type="text" name="name">
 </div>
 <br>
 <div>
-<label>Password: </label>
-  <input type="password" name="password">
+<label for="age">Age: </label>
+  <input type="password" name="age">
 </div>
 <br>
   <input type="submit" name="submit" value="Submit">
