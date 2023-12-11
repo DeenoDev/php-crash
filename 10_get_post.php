@@ -5,13 +5,14 @@
   We can pass data through urls and forms using the $_GET and $_POST superglobals.
 */
 
-// if (isset($_POST['submit'])) {
-//   // echo '<h3>' . $GET['username'] . '</h3>';
-//   echo '<h3>' . $_POST['username'] . '</h3>';
-// } ?>
+// }
+echo $_GET['username'];
+echo $_GET['age'];
+
+?>
 
 <!-- Pass data through a link -->
-<a href="<?php echo $_SERVER['PHP_SELF']; ?>?username=Deyano">Link</a>
+<a href="<?php echo $_SERVER['PHP_SELF']; ?>?username=Deyano&age=27">Link</a>
 
 
 <br><br>
