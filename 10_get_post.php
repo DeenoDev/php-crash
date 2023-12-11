@@ -18,10 +18,10 @@ echo $_GET['age'];
 <br><br>
 
 <!-- Pass data through a form -->
-<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
 <div>
-  <label for="name">Name: </label>
-  <input type="text" name="name">
+  <label for="username">Name: </label>
+  <input type="text" name="username">
 </div>
 <br>
 <div>
