@@ -6,8 +6,10 @@
 */
 
 // }
+if (isset($_POST['submit'])){
 echo $_POST['username'];
 echo $_POST['age'];
+}
 
 ?>
 
@@ -29,5 +31,5 @@ echo $_POST['age'];
   <input type="password" name="age">
 </div>
 <br>
-  <input type="submit" name="submit" value="Submit">
+  <input type="submit" name="submit" value="submit">
 </form>
