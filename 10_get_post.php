@@ -6,8 +6,8 @@
 */
 
 // }
-echo $_GET['username'];
-echo $_GET['age'];
+echo $_POST['username'];
+echo $_POST['age'];
 
 ?>
 
@@ -18,7 +18,7 @@ echo $_GET['age'];
 <br><br>
 
 <!-- Pass data through a form -->
-<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="GET">
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
 <div>
   <label for="username">Name: </label>
   <input type="text" name="username">
