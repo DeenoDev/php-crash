@@ -10,13 +10,13 @@ if (isset($_POST['submit'])) {
 //   $email = $_POST['email'];
 
   // htmlspecialchars() - Convert special characters to HTML entities
-  $name = htmlspecialchars($_POST['name']);
-  $email = htmlspecialchars($_POST['email']);
-  echo $name;
+//   $name = htmlspecialchars($_POST['name']);
+//   $email = htmlspecialchars($_POST['email']);
+//   echo $name;
 
   // filter_var() - Sanitize data
-  // $name = filter_var($_POST['name'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-  // $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+//   $name = filter_var($_POST['name'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+//   $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
   // filter_input() - Sanitize inputs
   $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
