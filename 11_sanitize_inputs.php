@@ -6,12 +6,13 @@
 */
 
 if (isset($_POST['submit'])) {
-  // $name = $_POST['email'];
-  // $email = $_POST['email'];
+//   $name = $_POST['email'];
+//   $email = $_POST['email'];
 
   // htmlspecialchars() - Convert special characters to HTML entities
-  // $name = htmlspecialchars($_POST['name']);
-  // $email = htmlspecialchars($_POST['email']);
+  $name = htmlspecialchars($_POST['name']);
+  $email = htmlspecialchars($_POST['email']);
+  echo $name;
 
   // filter_var() - Sanitize data
   // $name = filter_var($_POST['name'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
@@ -39,7 +40,7 @@ if (isset($_POST['submit'])) {
   <input type="text" name="name">
 </div>
 <br>
-<?php echo $email; ?>
+ <?php echo $email; ?> 
 <div>
 <label>Email: </label>
   <input type="email" name="email">
