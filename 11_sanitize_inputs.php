@@ -12,15 +12,15 @@ if (isset($_POST['submit'])) {
   // htmlspecialchars() - Convert special characters to HTML entities
 //   $name = htmlspecialchars($_POST['name']);
 //   $email = htmlspecialchars($_POST['email']);
-//   echo $name;
+  echo $name;
 
   // filter_var() - Sanitize data
-//   $name = filter_var($_POST['name'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-//   $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+  $name = filter_var($_POST['name'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+  $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
   // filter_input() - Sanitize inputs
-  $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-  $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+//   $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+//   $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 
   // FILTER_SANITIZE_STRING - Convert string to string with only alphanumeric, whitespace, and the following characters - _.:/
   // FILTER_SANITIZE_EMAIL - Convert string to a valid email address
