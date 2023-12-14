@@ -10,12 +10,12 @@
 // Set a cookie
 setcookie('name', 'Deyano', time() + 86400 * 30); // 86400 = 1 day
 
-echo time();
+// echo time();
 
-// // Get a cookie
-// if (isset($_COOKIE['name'])) {
-//   echo $_COOKIE['name'];
-// }
+// Get a cookie
+if (isset($_COOKIE['name'])) {
+  echo $_COOKIE['name'];
+}
 
 // // Delete a cookie
 // setcookie('name', '', time() - 86400);
