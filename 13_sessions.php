@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
     FILTER_SANITIZE_FULL_SPECIAL_CHARS
   );
 
-  if ($username == 'brad' && $password == 'password') {
+  if ($username == 'Deyano' && $password == 'password') {
     // Set Session variable
     $_SESSION['username'] = $username;
     // Redirect user to another page
