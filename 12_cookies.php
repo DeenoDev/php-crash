@@ -18,4 +18,4 @@ if (isset($_COOKIE['name'])) {
 }
 
 // // Delete a cookie
-// setcookie('name', '', time() - 86400);
+setcookie('name', '', time() - 86400);
