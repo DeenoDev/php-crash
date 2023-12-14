@@ -5,4 +5,5 @@ if (isset($_SESSION['username'])){
     echo '<h1> Welcome ' . $_SESSION['username'] . '</h1>';
 } else {
     echo '<h1>Welcome Guest</h1>';
+    echo '<a href ="/php-crash/13_sessions.php">Home</a>';
 }
