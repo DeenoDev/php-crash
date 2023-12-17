@@ -8,8 +8,14 @@
 */
 
 class User {
+    //Properties are variables / attributes that belong to a class
     public $name;
     public $email;
     public $password;
-
 }
+
+//Instantiate a user object
+
+$user1 = new User();
+
+var_dump($user1);
