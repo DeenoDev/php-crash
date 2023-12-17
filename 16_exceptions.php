@@ -13,7 +13,7 @@ function inverse($x) {
   return 1/$x;
 }
 
-echo inverse(0); // Causes an exception to be thrown and stops script execution
+// echo inverse(0); // Causes an exception to be thrown and stops script execution
 
 // Handles the exception
 // try {
