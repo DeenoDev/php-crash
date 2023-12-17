@@ -13,7 +13,7 @@ function inverse($x) {
   return 1/$x;
 }
 
-// echo inverse(0); // Causes an exception to be thrown and stops script execution
+echo inverse(0); // Causes an exception to be thrown and stops script execution
 
 // Handles the exception
 // try {
@@ -25,21 +25,21 @@ function inverse($x) {
 
 // Finally block is executed regardless of whether an exception is thrown or not
 
-try {
-  echo inverse(5) . ' ';
-} catch (Exception $e) {
-  echo 'Caught exception: ',  $e->getMessage(), ' ';
-} finally {
-  echo 'First finally ';
-}
+// try {
+//   echo inverse(5) . ' ';
+// } catch (Exception $e) {
+//   echo 'Caught exception: ',  $e->getMessage(), ' ';
+// } finally {
+//   echo 'First finally ';
+// }
 
-try {
-  echo inverse(0) . ' ';
-} catch (Exception $e) {
-  echo 'Caught exception: ',  $e->getMessage(), ' ';
-} finally {
-  echo "Second finally ";
-}
+// try {
+//   echo inverse(0) . ' ';
+// } catch (Exception $e) {
+//   echo 'Caught exception: ',  $e->getMessage(), ' ';
+// } finally {
+//   echo "Second finally ";
+// }
 
 
-echo 'Hello World';
+// echo 'Hello World';
