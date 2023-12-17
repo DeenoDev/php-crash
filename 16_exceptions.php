@@ -33,13 +33,13 @@ try {
   echo 'First finally ';
 }
 
-// try {
-//   echo inverse(0) . ' ';
-// } catch (Exception $e) {
-//   echo 'Caught exception: ',  $e->getMessage(), ' ';
-// } finally {
-//   echo "Second finally ";
-// }
+try {
+  echo inverse(0) . ' ';
+} catch (Exception $e) {
+  echo 'Caught exception: ',  $e->getMessage(), ' ';
+} finally {
+  echo "Second finally ";
+}
 
 
-// echo 'Hello World';
+echo 'Hello World';
