@@ -25,13 +25,13 @@ echo inverse(0); // Causes an exception to be thrown and stops script execution
 
 // Finally block is executed regardless of whether an exception is thrown or not
 
-// try {
-//   echo inverse(5) . ' ';
-// } catch (Exception $e) {
-//   echo 'Caught exception: ',  $e->getMessage(), ' ';
-// } finally {
-//   echo 'First finally ';
-// }
+try {
+  echo inverse(5) . ' ';
+} catch (Exception $e) {
+  echo 'Caught exception: ',  $e->getMessage(), ' ';
+} finally {
+  echo 'First finally ';
+}
 
 // try {
 //   echo inverse(0) . ' ';
