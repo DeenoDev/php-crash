@@ -18,4 +18,6 @@ class User {
 
 $user1 = new User();
 
+$user1->name = 'Deyano';
+
 var_dump($user1);
