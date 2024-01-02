@@ -24,4 +24,5 @@ $user1 = new User();
 
 $user1->name = 'Deyano';
 
-var_dump($user1);
+// var_dump($user1);
+echo $user1->name;
