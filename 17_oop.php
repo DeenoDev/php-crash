@@ -26,8 +26,11 @@ class User {
 //Instantiate a user object
 
 $user1 = new User();
+$user2 = new User();
 
 $user1->set_name('Deyano');
+$user1->set_name('Rachelle');
 
 
 var_dump($user1);
+var_dump($user2);
