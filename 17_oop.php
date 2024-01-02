@@ -9,6 +9,10 @@
 
 class User {
     //Properties are variables / attributes that belong to a class
+    // Access Modifiers: public, private, protected
+    // public - can be accessed from anywhere
+    // private - can only be accessed from inside the class
+    // protected - can only be accessed from inside the class and by inheriting classes
     public $name;
     public $email;
     public $password;
