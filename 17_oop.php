@@ -46,7 +46,8 @@ echo $user2->name;
 //Inheritence
 
 class Employee extends User {
-  public function __construct($name, $email, $password){
-    
+  public function __construct($name, $email, $password, $title){
+    parent::__construct($name, $email, $password);
+
   }
 }
