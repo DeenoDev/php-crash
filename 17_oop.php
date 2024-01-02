@@ -39,8 +39,8 @@ class User {
 $user1 = new User('Deyano', 'deyano@gmail.com', '123456');
 $user2 = new User('Rachelle', 'rachelle@gmail.com', '456789');
 
-echo $user1->email;
-echo $user2->name;
+// echo $user1->email;
+// echo $user2->name;
 
 
 //Inheritence
@@ -59,3 +59,5 @@ class Employee extends User {
 }
 
 $employee1 = new Employee('Sara', 'sara@gmail.com', '456789', 'manager');
+
+echo $employee1->get_title();
