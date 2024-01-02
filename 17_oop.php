@@ -16,13 +16,13 @@ class User {
     public $name;
     public $email;
     public $password;
+
+    //Method is a function that belongs to a class.
 }
 
 //Instantiate a user object
 
 $user1 = new User();
 
-$user1->name = 'Deyano';
 
-// var_dump($user1);
-echo $user1->name;
+var_dump($user1);
