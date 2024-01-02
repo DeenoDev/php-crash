@@ -21,6 +21,10 @@ class User {
     function set_name($name){
       $this->name = $name;
     }
+
+    function  get_name(){
+      return $this->name;
+    }
 }
 
 //Instantiate a user object
@@ -29,8 +33,7 @@ $user1 = new User();
 $user2 = new User();
 
 $user1->set_name('Deyano');
-$user1->set_name('Rachelle');
+$user2->set_name('Rachelle');
 
-
-var_dump($user1);
-var_dump($user2);
+echo $user1->get_name();
+echo $user2->get_name();
