@@ -41,3 +41,12 @@ $user2 = new User('Rachelle', 'rachelle@gmail.com', '456789');
 
 echo $user1->email;
 echo $user2->name;
+
+
+//Inheritence
+
+class Employee extends User {
+  public function __construct($name, $email, $password){
+    
+  }
+}
