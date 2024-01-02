@@ -46,8 +46,16 @@ echo $user2->name;
 //Inheritence
 
 class Employee extends User {
-  public function __construct($name, $email, $password, $title){
+  public function __construct($name, $email, $password, $title)
+  {
     parent::__construct($name, $email, $password);
+    $this->title = $title;
 
   }
+
+  public function get_title(){
+    return $this->title;
+  }
 }
+
+$employee1 = new Employee('Sara', 'sara@gmail.com', '456789', 'manager');
