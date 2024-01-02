@@ -18,8 +18,10 @@ class User {
     public $password;
 
     //A constructor is a function or method that runs when an object is created.
-    public function __construct(){
-      echo 'constructor ran ';
+    public function __construct($name, $email, $password){
+      $this->name = $name;
+      $this->email = $email;
+      $this->password = $password;
     }
 
     //Method is a function that belongs to a class.
@@ -34,5 +36,8 @@ class User {
 
 //Instantiate a user object
 
-$user1 = new User();
-$user2 = new User();
+$user1 = new User('Deyano', 'deyano@gmail.com', '123456');
+$user2 = new User('Rachelle', 'rachelle@gmail.com', '456789');
+
+echo $user1->email;
+echo $user2->name;
