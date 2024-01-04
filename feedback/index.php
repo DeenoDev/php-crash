@@ -20,3 +20,4 @@
         <input type="submit" name="submit" value="Send" class="btn btn-dark w-100">
       </div>
     </form>
+    <?php include 'inc/footer.php'; ?>
