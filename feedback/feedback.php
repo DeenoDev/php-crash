@@ -26,7 +26,11 @@
 
 ?>
    
-    <h2>Feedback</h2>
+    <h2>Past Feedback</h2>
+
+    <?php if(empty($feedback)): ?>
+
+    <?php endif; ?>  
 
     <div class="card my-3">
      <div class="card-body">
