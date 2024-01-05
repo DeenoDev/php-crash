@@ -1,4 +1,30 @@
 <?php include 'inc/header.php'; ?>
+
+<?php 
+  
+  $feedback = [
+    [
+      'id' => '1',
+      'name' => 'Beth Williams',
+      'email' => 'beth@gmail.com',
+      'body' => 'OmniWeb is great!'
+    ],
+    [
+      'id' => '2',
+      'name' => 'Walt Williams',
+      'email' => 'walt@gmail.com',
+      'body' => 'OmniWeb is awesome!'
+    ],
+    [
+      'id' => '1',
+      'name' => 'Bill Williams',
+      'email' => 'walt@gmail.com',
+      'body' => 'OmniWeb is incredible!'
+    ]
+  ]
+
+
+?>
    
     <h2>Feedback</h2>
 
