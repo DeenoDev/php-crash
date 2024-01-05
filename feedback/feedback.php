@@ -29,7 +29,7 @@
     <h2>Past Feedback</h2>
 
     <?php if(empty($feedback)): ?>
-
+       <p class="lead mt3">There is no feedback</p>
     <?php endif; ?>  
 
     <div class="card my-3">
