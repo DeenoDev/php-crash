@@ -2,6 +2,7 @@
 
 <?php
    $name = $email = $body = ''; 
+   $nameErr = $emailErr = $bodyErr = '';
 
 
 ?>
