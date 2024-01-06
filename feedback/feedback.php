@@ -1,7 +1,7 @@
 <?php include 'inc/header.php'; ?>
 
 <?php 
-  
+  $sql = 'SELECT * FROM feedback';
 
 ?>
    
