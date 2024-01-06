@@ -2,6 +2,8 @@
 
 <?php 
   $sql = 'SELECT * FROM feedback';
+  $result = mysqli_query($conn, $sql);
+  $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 ?>
    
