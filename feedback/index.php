@@ -13,6 +13,20 @@
       $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
      }
 
+     //Validate email
+     if(empty($_POST['email'])) {
+      $emailErr = 'Email is required';
+     } else {
+      $emailErr = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+     }
+
+     //Validate body
+     if(empty($_POST['name'])) {
+      $nameErr = 'Name is required';
+     } else {
+      $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+     }
+
    }
 
 
