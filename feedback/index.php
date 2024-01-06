@@ -1,5 +1,11 @@
 <?php include 'inc/header.php'; ?>
 
+<?php
+   $name = $email = $body = ''; 
+
+
+?>
+
     <img src="/php-crash/feedback/img/logo.png" class="w-25 mb-3" alt="">
     <h2>Feedback</h2>
     <p class="lead text-center">Leave feedback for OmniWeb</p>
