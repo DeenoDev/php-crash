@@ -17,14 +17,14 @@
      if(empty($_POST['email'])) {
       $emailErr = 'Email is required';
      } else {
-      $emailErr = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+      $emailErr = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
      }
 
      //Validate body
-     if(empty($_POST['name'])) {
-      $nameErr = 'Name is required';
+     if(empty($_POST['body'])) {
+      $bodyErr = 'Feedback is required';
      } else {
-      $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+      $body = filter_input(INPUT_POST, 'body', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
      }
 
    }
