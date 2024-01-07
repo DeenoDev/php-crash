@@ -38,7 +38,7 @@
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="mt-4 w-75">
       <div class="mb-3">
         <label for="name" class="form-label">Name</label>
-        <input type="text" class="form-control is-invalid" id="name" name="name" placeholder="Enter your name">
+        <input type="text" class="form-control <?php echo $nameErr ? 'is-invalid' : null; ?>" id="name" name="name" placeholder="Enter your name">
         <div class="invalid-feedback">
           <?php echo $nameErr ?>
         </div>
