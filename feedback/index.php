@@ -27,6 +27,13 @@
       $body = filter_input(INPUT_POST, 'body', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
      }
 
+     if(empty($nameErr) && empty($emailErr) && empty($bodyErr))
+     {
+      //Add to database
+      $sql = "INSERT INTO feedback (name, email, body) VALUES 
+      ('$name', '$email', '$body')";
+     }
+
    }
 
 
