@@ -17,7 +17,7 @@
      if(empty($_POST['email'])) {
       $emailErr = 'Email is required';
      } else {
-      $emailErr = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+      $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
      }
 
      //Validate body
@@ -45,7 +45,10 @@
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+        <input type="email" class="form-control <?php echo $emailErr ? 'is-invalid' : null; ?>" id="email" name="email" placeholder="Enter your email">
+        <div class="invalid-feedback">
+          <?php echo $emailErr ?>
+        </div>
       </div>
       <div class="mb-3">
         <label for="body" class="form-label">Feedback</label>
